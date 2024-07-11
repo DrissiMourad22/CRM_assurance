@@ -1,0 +1,19 @@
+<svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 202">
+<g id="Control" filter="url(#filter0_d_1_20371)">
+<path d="M20.3374 10.0901C20.3374 14.8777 16.4563 18.7588 11.6687 18.7588C6.88112 18.7588 3 14.8777 3 10.0901C3 5.30251 6.88112 1.42139 11.6687 1.42139C16.4563 1.42139 20.3374 5.30251 20.3374 10.0901Z" fill="white"/>
+</g>
+<path id="Text" d="M13.5924 9.96738V11.0451H9.81409V9.96738H13.5924Z" fill="#63357E"/>
+</g>
+<defs>
+<filter id="filter0_d_1_20371" x="0.919507" y="0.0343914" width="21.4984" height="21.4984" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="0.693498"/>
+<feGaussianBlur stdDeviation="1.04025"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_20371"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_20371" result="shape"/>
+</filter>
+</defs>
+</svg>

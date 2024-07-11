@@ -1,0 +1,93 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        "greyscale-50": "#fafafa",
+        "others-white": "#fff",
+        "greyscale-200": "#f0f2f4",
+        "greyscale-900": "#111827",
+        "greyscale-600": "#687588",
+        "greyscale-100": "#f8f8f8",
+        "alerts-error-base": "#e03137",
+        "others-blue": "#2f78ee",
+        "primary-base": "#27a376",
+        "greyscale-400": "#cbd5e0",
+        mediumaquamarine: "#40bd8f",
+        "primary-100": "#e7f7ef",
+        gainsboro: {
+          "100": "#e6d4d4",
+          "200": "#cfded6",
+        },
+        dodgerblue: "#4791ff",
+        "greyscale-500": "#a0aec0",
+        "primary-200": "#ceefdf",
+        "secondary-200": "#fff6d3",
+        "secondary-base": "#ffd023",
+        "alerts-error-light": "#ffedec",
+        "greyscale-300": "#e9eaec",
+        "alerts-success-base": "#0caf60",
+        wheat: "#e6deba",
+        "alerts-warning-dark": "#e6bb20",
+        lavender: "#f4f0ff",
+        "others-portage": "#8c62ff",
+        "others-orange": "#fe964a",
+        chocolate: "#cc6317",
+        goldenrod: "#cc9e00",
+        darkslategray: "#333639",
+        "grey-scale-independence": "#3e3f5e",
+        "grey-scale-cool-grey": "#8f91ac",
+        dimgray: "#717375",
+        gray: "rgba(0, 0, 0, 0.8)",
+      },
+      spacing: {},
+      fontFamily: {
+        "body-small-medium": "Manrope",
+        "open-sans": "'Open Sans'",
+        "martel-sans": "'Martel Sans'",
+        martel: "Martel",
+        inherit: "inherit",
+      },
+      borderRadius: {
+        "3xs": "10px",
+        "981xl": "1000px",
+        "81xl": "100px",
+        "12xs": "1px",
+      },
+    },
+    fontSize: {
+      xs: "12px",
+      "3xs": "10px",
+      sm: "14px",
+      base: "16px",
+      "5xl": "24px",
+      lgi: "19px",
+      lg: "18px",
+      "29xl": "48px",
+      "13xl": "32px",
+      "7xl": "26px",
+      inherit: "inherit",
+    },
+    screens: {
+      lg: {
+        max: "1200px",
+      },
+      mq825: {
+        raw: "screen and (max-width: 825px)",
+      },
+      mq675: {
+        raw: "screen and (max-width: 675px)",
+      },
+      mq450: {
+        raw: "screen and (max-width: 450px)",
+      },
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
